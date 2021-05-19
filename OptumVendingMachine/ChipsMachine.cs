@@ -91,7 +91,7 @@ namespace OptumVendingMachine
 
         private void returnChange()
         {
-            if(runningTotal>COST_OF_ITEMS)
+            if(runningTotal>COST_OF_ITEMS)     
             {
                 Console.WriteLine("Your change is {0:C}", runningTotal - COST_OF_ITEMS);
             }
